@@ -1,0 +1,44 @@
+<--- Historyi temizlemeyi unuttuğum için önceki commandleri sildim --->
+  657  mkdir git_hw
+  658  cd git_hw/
+  659  git config
+  660  git
+  661  git config
+  662  git config --global user.name "Talha Demirel"
+  663  git config --global user.email talhademirell@outlook.com
+  664  ls
+  665  git clone https://github.com/talhademirel/HW_10.git
+  666  ls
+  667  cd HW_10/
+  668  ls
+  669  touch text_ignore.txt
+  670  ls
+  671  git status
+  672  git add.
+  673  git add .
+  674  git status
+  675  git commit -m "added file to ignore"
+  676  git status
+  677  touch main_test.txt
+  678  git add .
+  679  git status
+  680  git commit -m "created main_test.txt file"
+  681  branch develop
+  682  git branch develop
+  683  git checkout develop
+  684  git branch
+  685  ls
+  686  touch develop_test.txt
+  687  git add .
+  688  git commit -m "creared develop_test.txt file"
+  689  nano develop_test.txt 
+  690  git status
+  691  git add .
+  692  git commit -m "editted develeop_test.txt file"
+  693  git checkout main
+  694  git branch
+  695  git merge develop 
+  696  git log
+  697  ls
+  698  git BASH
+  699  history > command_list.csv
